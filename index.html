@@ -18,23 +18,32 @@ canvas {
   position: fixed;
   width: 100%;
   height: 100%;
-  animation: heartbeat 1.5s infinite;
+  animation: heartbeat 1.5s infinite;    
 }
 h1{
 color: #ff4a4a; font-size: 25px; text-align: center;
 line-height: 74px;font-weight: 700;
-float: center;  font-family: 'Libre Baskerville', serif;
+float: center;  
+font-family: "Times New Roman", Times, serif;
+/* margin-top: 200px; */
+}
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: top;
 }
 @keyframes heartbeat {
     0%{
         transform: scale(1.0);
     }
-    20%{
+    /* 20%{
         transform: scale(1.2);
-    }
-     /* 40%{
+    } */
+     40%{
         transform: scale(1.2);
-    }  */
+    } 
 }
   </style>
  </HEAD>
@@ -42,11 +51,9 @@ float: center;  font-family: 'Libre Baskerville', serif;
   <div class="box">
 
 
-
-					<!-- Điền tên bạn bên dưới nha ở giữa <h1> với </h1> á. (Ví dụ: <h1>Uyên Nhi</h1>) -->
-									<h1>CHÚC BÉ ĐỤT MAU HẾT BỆNH</h1>
-                  <h1>YÊU BÉ NHIỀU NHIỀU</h1>
-
+					<!-- Điền tên bạn bên dưới -->				
+          <h1>CHÚC BÉ ĐỤT MAU HẾT BỆNH<br  >
+          YÊU BÉ NHIỀU</span></h1>
 
 
     <canvas id="pinkboard"></canvas>
